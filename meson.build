@@ -1,3 +1,5 @@
 project('Garuda-The-Eagle', 'c')
 
-dependency('python3')
+python_dep = dependency('python3', required: true)
+
+install_data('app.py', install_dir: get_option('bindir'))
