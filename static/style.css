@@ -134,25 +134,34 @@ header p.subtitle {
   box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
 }
 
-.scan-form button {
-  padding: 10px 15px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  background-color: #00ffff;
-  color: #000;
+.scan-btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: 2px solid #00ffff;
+  background-color: #00bfff; /* Sky blue background */
+  color: #0f172a;
   cursor: pointer;
-  margin-left: 10px;
-  font-weight: bold;
-  box-shadow: 0 0 10px #00ffff;
-  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  width: auto; /* Adjust width based on text */
+  min-width: max-content; /* Ensures it doesn’t shrink awkwardly */
 }
 
-.scan-form button:hover {
+.scan-btn .icon {
+  font-size: 20px;
+}
+
+.scan-btn:hover {
   background-color: transparent;
-  color: #00ffff;
-  border: 2px solid #00ffff;
-  box-shadow: 0 0 20px #00ffff;
+  border: 2px solid #00bfff;
+  color: #00bfff;
+  box-shadow: 0px 0px 15px rgba(0, 191, 255, 0.8);
+  transform: scale(1.05);
 }
 
 .info-grid {

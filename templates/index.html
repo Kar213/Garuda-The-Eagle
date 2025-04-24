@@ -37,13 +37,16 @@
   <!-- 🔍 Scan Form -->
   <main>
     <section class="scanner">
+        <form class="scan-form">
       <form method="POST" action="/scan" class="scan-form">
         <input type="text" name="target" placeholder="Enter IP or Domain" required />
+        <button id="scan" class="scan-btn"><span class="icon">🔍</span> Start Scan</button>
         <label style="margin-left: 10px;">
           <input type="checkbox" name="advanced"> Advanced Scan
         </label>
       </form>
     </section>
+
 <!-- 📊 Compare Button -->
 <section class="compare-scans">
   <form method="GET" action="/compare">
@@ -90,8 +93,50 @@
   </main>
 <!-- 🔍 About Section -->
 <section id="about" class="info-section hidden-section">
-  <h2>About Garuda</h2>
-  <p>Garuda is a futuristic, web-based port scanner that provides insights from Nmap in a visual and accessible way.</p>
+  <h2>About Garuda: The Weapon</h2>
+  <p>
+    Garuda: The Weapon is an advanced cybersecurity tool designed to analyze networks, uncover vulnerabilities, and strengthen digital defenses. 
+    Leveraging the power of <strong>Nmap</strong>, this web-based port scanner transforms raw network data into a structured, visual, and accessible format.
+  </p>
+
+  <h3>Key Features</h3>
+  <ul>
+    <li><strong>Fast & Accurate Scanning:</strong> Perform detailed port scans to identify open services on a target network.</li>
+    <li><strong>Advanced Analysis Mode:</strong> Deep fingerprinting of detected services to provide security insights.</li>
+    <li><strong>Customizable & Lightweight:</strong> Designed for efficient security assessments without unnecessary complexity.</li>
+    <li><strong>Real-time Results:</strong> Provides instant feedback with structured data visualization for easy interpretation.</li>
+    <li><strong>Optimized for Professionals & Learners:</strong> A user-friendly approach that benefits ethical hackers, security researchers, and developers alike.</li>
+  </ul>
+
+  <h3>How Garuda Works</h3>
+  <p>
+    Garuda: The Weapon integrates Nmap’s scanning capabilities with an intuitive web interface, making security analysis more accessible. 
+    It allows users to input a target IP or domain and retrieve detailed network information, including:
+  </p>
+  <ul>
+    <li>Open ports & active services</li>
+    <li>Possible vulnerabilities based on detected configurations</li>
+    <li>Detailed scan history & analysis reports</li>
+  </ul>
+
+  <h3>Why Garuda?</h3>
+  <p>
+    Inspired by the legendary <em>Garuda</em>, a symbol of strength, vigilance, and speed, this tool embodies proactive security, ensuring digital spaces remain protected. 
+    Whether securing personal networks or conducting ethical security assessments, Garuda: The Weapon equips users with the essential scanning and analysis capabilities needed in today’s cyber world.
+  </p>
+
+  <h3>Development & Future Plans</h3>
+  <p>
+    Garuda was built with a combination of <strong>Python, Flask, and Nmap integrations</strong> to ensure seamless network analysis. Future updates will introduce features such as:
+  </p>
+  <ul>
+    <li>Enhanced scanning modes for deeper security testing</li>
+    <li>Customizable scan parameters for more precise analysis</li>
+    <li>Integration with additional cybersecurity tools</li>
+    <li>Improved UI for a smoother user experience</li>
+  </ul>
+
+  <p>Garuda: The Weapon is a commitment to cybersecurity, helping users stay informed and secure in an ever-evolving digital landscape.</p>
 </section>
 
 <!-- 📫 Contact Section -->
