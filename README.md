@@ -1,35 +1,44 @@
-# Garuda-The-Weapon
-# ⚔️ Garuda-The-Weapon
+# ⚔ Garuda: The Weapon 🦅  
 
-> A web-based port scanning tool designed for modern digital warriors. Garuda-The-Weapon scans open and closed ports, saves results, and lets you compare historical scans to spot changes — all from a simple, powerful interface.
-
----
-
-### 🧠 What It Does
-
-- 🔍 **Scans ports** on target IP addresses
-- 📋 **Generates simple reports** showing open/closed ports
-- 🧠 **Explains port purpose** in plain English
-- 💾 **Saves scan results** to local storage or database
-- 🔁 **Compares last two scans** to highlight differences (open → closed / closed → open)
+> A **fast, intuitive, and powerful** web-based port scanning tool designed for ethical hackers, researchers, and security professionals.  
+> Garuda helps you **scan ports, analyze changes**, and generate meaningful reports—all from a clean and futuristic cyberpunk-inspired interface.  
 
 ---
 
-### ⚙️ Built With
-
-- 🐍 Python + Flask (Backend)
-- 🌐 HTML + CSS + JavaScript (Frontend)
-- 🧠 Custom-built scan logic using `socket` and system utilities
-
----
-
-### 🚀 Try It Online (Coming Soon)
-
-> Web deployment in progress. Stay tuned for the live demo.
+## 🚀 Features
+- 🔍 **Port scanning** using Nmap for accurate results  
+- ⚙ **Advanced scan toggle** for deeper analysis  
+- 📄 **HTML report output** explaining open/closed ports  
+- 💾 **Scan history and comparison** to track changes  
+- 🌐 **Flask backend + Nmap subprocess integration** for seamless execution  
+- 🧠 **Plain-English explanations** for port usage insights  
 
 ---
 
-### 🛠️ Run Locally
+## 🛠 Built With
+- 🐍 **Python + Flask** (Backend)  
+- 🌐 **HTML + CSS + JavaScript** (Frontend)  
+- 🧠 **Nmap subprocess integration** for accurate scanning  
+- 🔧 **Custom-built scan logic** leveraging `socket` and system utilities  
+
+---
+
+## 🚀 Try It Online (Coming Soon)
+> Web deployment in progress. Stay tuned for the live demo.  
+
+---
+## 🔒 Legal
+This project is developed and copyrighted by:
+
+**Kartik Choubey**  
+2025 © All Rights Reserved
+
+Do not copy, resell, or rebrand this tool without permission.
+
+## 📄 License
+This project is licensed under the MIT License — see the `LICENSE` file for details.
+
+## 🛠 Run Locally  
 
 ```bash
 git clone https://github.com/your-username/Garuda-The-Weapon.git
